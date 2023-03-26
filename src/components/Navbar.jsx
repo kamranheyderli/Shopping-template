@@ -36,7 +36,7 @@ export const Navbar = () => {
             </nav>
 
             <div className="hidden md:flex gap-x-4 mt-[15px] font-montserrat ">
-                <a href="#">Login/Register</a>
+                <Link to="">Login/Register</Link>
                 <BsSearch />
                 <AiOutlineHeart />
                 <MdOutlineLocalGroceryStore />

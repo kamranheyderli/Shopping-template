@@ -209,7 +209,7 @@ export const Home = () => {
 
           <div className="flex gap-x-5 ">
             <div className='icon text-5xl text-red-500 '>
-              <BsFillCarFrontFill />
+              <FaHeadphonesAlt />
             </div>
             <div className="tittle flex flex-col ">
               <p className='text-[16px] font-bold'>Payment Secure</p>
