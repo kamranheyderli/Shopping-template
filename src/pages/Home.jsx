@@ -133,7 +133,7 @@ export const Home = () => {
 
           </div>
 
-          <div className=" grid ml-[100px] md:ml-0 grid-cols-1 md:grid-cols-4 gap-y-5 gap-x-5">
+          <div className=" grid ml-[50px] md:ml-0 grid-cols-1 md:grid-cols-4 gap-y-5 gap-x-5">
 
             {data.map((item) => (
               <Card img={item.image} title={item.title.slice(0, 10)} description={item.description.slice(0, 10)} price={item.price} />
