@@ -35,11 +35,11 @@ export const Home = () => {
 
       <section className='categories'>
 
-        <div className="w-100% md: mt-[53px] ">
+        <div className="w-full md:w-full mt-[53px] ">
           <div className='grid grid-rows-1 md:grid-cols-2  '>
             {/* start left section */}
-            <div className="w-auto h-[660px] bg-center bg-no-repeat " style={{ backgroundImage: `url(${Cover})` }}>
-              <div className=" w-[500px] h-[648px] flex items-center justify-center mx-10">
+            <div className="w-full md:-full h-[660px] bg-center bg-no-repeat " style={{ backgroundImage: `url(${Cover})` }}>
+              <div className="w-[400px] h-[450px] flex items-center justify-center mx-2 md:mx-10">
                 <div className="flex flex-col">
                   <h1 className='font-cookie text-7xl font-medium'>Women's fashion</h1>
                   <p className='font-montserrat'>Sitamet, consectetur adipiscing elit, sed do eiusmod tempor incidid-unt labore edolore magna aliquapendisse ultrices gravida.</p>
@@ -53,11 +53,11 @@ export const Home = () => {
 
             {/* start right section */}
 
-            <div className="md:w-100% lg:w-100% h-[660px]  grid grid-cols-1 my-1">
+            <div className="w-full md:w-full h-[660px]  grid grid-cols-1 my-1">
               {/* top right section */}
               <div className=" grid grid-cols-1 md:grid-cols-2 w-auto h-[330px] ">
 
-                <div className=" w-100% mt-2 md:w-[320px] h-[320px] mx-[10px] bg-center bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${Categories})` }}>
+                <div className=" w-full md:md:w-[320px] mt-2  h-[320px] mx-0 md:mx-[10px] bg-center bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${Categories})` }}>
                   <div className=" w-[300px] h-[350px] flex flex-col justify-center px-[35px] scale-75 hover:scale-100 duration-1000">
                     <h1 className='text-[30px] font-medium'>Men's fashion</h1>
                     <span className='text-[15px] font-montserrat font-medium'>358 items</span>
@@ -66,7 +66,7 @@ export const Home = () => {
                   </div>
                 </div>
 
-                <div className=" md:w-100% mt-2 lg:w-[320px] h-[320px]  mx-[10px] bg-center bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${Categories1})` }}>
+                <div className=" w-full md:w-[320px] mt-2  h-[320px]  mx-0 md:mx-[10px] bg-center bg-no-repeat bg-cover  " style={{ backgroundImage: `url(${Categories1})` }}>
                   <div className=" w-[300px] h-[350px] flex flex-col justify-center px-[35px] scale-75 hover:scale-100 duration-1000">
                     <h1 className='text-[30px] font-medium'>Kid's fashion</h1>
                     <span className='text-[15px] font-montserrat font-medium'>273 items</span>
@@ -77,9 +77,9 @@ export const Home = () => {
               </div>
 
               {/* button right section */}
-              <div className="mt-[335px] md:mt-0  grid grid-cols-1 md:grid-cols-2  w-auto h-[330px] ">
+              <div className="mt-[335px] md:mt-0  grid grid-cols-1 md:grid-cols-2  w-full md:w-full h-[330px] ">
 
-                <div className="md:w-full  lg:w-[320px] h-[320px] mx-[10px] bg-center bg-no-repeat bg-cover " style={{ backgroundImage: `url(${Categories2})` }}>
+                <div className="w-full md:w-[320px] h-[320px] mx-0 md:mx-[10px] bg-center bg-no-repeat bg-cover " style={{ backgroundImage: `url(${Categories2})` }}>
                   <div className=" w-[300px] h-[350px] flex flex-col justify-center px-[35px] scale-75 hover:scale-100 duration-1000">
                     <h1 className='text-[30px] font-medium'>Cosmetics</h1>
                     <span className='text-[15px] font-montserrat font-medium'>223 items</span>
@@ -88,7 +88,7 @@ export const Home = () => {
                   </div>
                 </div>
 
-                <div className=" w-full mt-2 md:  lg:w-[320px] h-[320px]  mx-[10px] bg-center bg-no-repeat bg-cover " style={{ backgroundImage: `url(${Categories3})` }}>
+                <div className=" w-full md:w-[320px]   h-[320px] mx-0 md:mx-[10px] bg-center bg-no-repeat bg-cover " style={{ backgroundImage: `url(${Categories3})` }}>
                   <div className=" w-[300px] h-[350px] flex flex-col justify-center px-[35px] scale-75 hover:scale-100 duration-1000">
                     <h1 className='text-[30px] font-medium'>Accessories</h1>
                     <span className='text-[15px] font-montserrat font-medium'>773 items</span>
@@ -145,8 +145,8 @@ export const Home = () => {
       </section>
 
       {/* start slider section  */}
-      <section className='w-100% h-[500px] mt-[2900px] md:mt-0' style={{ backgroundImage: `url(${Cover2})` }}>
-        <div className="w-[463px] md:w-full md:mx-0 ">
+      <section className='w-full h-[500px] mt-[2900px] md:mt-0' style={{ backgroundImage: `url(${Cover2})` }}>
+        <div className="w-[463px] md:w-full mx-12 md:mx-0 ">
           <Carousel />
         </div>
 
