@@ -24,7 +24,7 @@ export const Navbar = () => {
             </div>
 
             <nav className='hidden md:flex mt-[15px]'>
-                <ul className='hidden md:flex font-montserrat'>
+                <ul className='hidden sm:flex font-montserrat'>
                     <li className="p-4" ><Link className='hover:underline decoration-4 hover:decoration-red-500 hover:underline-offset-8 ' to="/">Home</Link></li>
                     <li className="p-4" ><Link className='hover:underline decoration-4 hover:decoration-red-500 hover:underline-offset-8' to="/womens">Women's</Link></li>
                     <li className="p-4"><Link className='hover:underline decoration-4 hover:decoration-red-500 hover:underline-offset-8' to="/mens">Men's</Link></li>
@@ -35,7 +35,7 @@ export const Navbar = () => {
                 </ul>
             </nav>
 
-            <div className="hidden md:flex gap-x-4 mt-[15px] font-montserrat ">
+            <div className="hidden sm:flex gap-x-4 mt-[15px] font-montserrat ">
                 <Link to="">Login/Register</Link>
                 <BsSearch />
                 <AiOutlineHeart />

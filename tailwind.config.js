@@ -9,6 +9,13 @@ module.exports = {
         montserrat: ['Montserrat', 'sans-serif'],
         cookie: ["Cookie", 'cursive']
       },
+
+      screens: {
+        'sm': '480px',
+        'md': '1024px',
+        'xl': '1280px',
+       
+      },
     }
     ,
   },

@@ -12,7 +12,7 @@ import { Link } from "react-router-dom"
 export const Footer = () => {
     return (
         <footer>
-            <div className=' container mx-auto w-full md:max-w-[1200px] h-[223px] gap-y-5 md:gap-y-0 grid grid-cols-1 md:grid-cols-4'>
+            <div className=' container mx-auto w-full h-[223px]  grid grid-cols-1 sm:grid-cols-4 mt-8 sm:mt-5 ml-3 sm:ml-5' >
 
                 <div className=" flex flex-col gap-y-5 ">
                     <div className="w-[98px] h-[31px] ">
